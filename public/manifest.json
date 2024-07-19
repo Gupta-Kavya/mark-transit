@@ -1,0 +1,17 @@
+{
+  "short_name": "Mark Transit",
+  "name": "Mark Transit",
+  "icons": [
+    {
+      "src": "maskable-icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable" 
+
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

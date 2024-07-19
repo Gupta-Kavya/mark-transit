@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert within Range</title>
+
+    <!-- leaflet css  -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- leaflet js  -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Map initialization 
+        var map = L.map('map').setView([26.900071, 75.726235], 13); // Jaipur coordinates
+
+        // OSM layer
+        var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        });
+        osm.addTo(map);
+
+        // Coordinate to be alerted
+        var alertCoordinate = [26.900071, 75.726235];
+
+        // Create a marker at the alert coordinate
+        var alertMarker = L.marker(alertCoordinate).addTo(map);
+
+        // Listen for map click event
+        map.on('click', function (e) {
+            // Check if the clicked coordinates match the alert coordinate
+            if (e.latlng.lat === alertCoordinate[0] && e.latlng.lng === alertCoordinate[1]) {
+                alert('Alert: You clicked on the designated coordinate.');
+            }
+        });
+    </script>
+</body>
+
+</html>
