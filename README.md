@@ -1,23 +1,26 @@
 # Mark Transit
 
-## Available Scripts
+Welcome to Mark Transit! Our latest innovation designed to enhance the daily commute experience for students, drivers, and organizations.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+- **Track Location**: Students can view the live location of their vehicle on an interactive map.
+- **View Live Route**: Follow the vehicle's route in real-time for better planning.
+- **Status Updates**: Receive real-time updates on arrival times at various stops.
+- **Arrival Time Notifications**: Get instant alerts when the vehicle is approaching your designated stop.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mark Transit is dedicated to making college/school commutes safer and more efficient for everyone involved.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+Follow these instructions to clone the repository and run Mark Transit locally.
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/Gupta-Kavya/mark-transit.git
+   cd mark-transit
+   npm install
+   npm start
