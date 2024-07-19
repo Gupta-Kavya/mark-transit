@@ -6,13 +6,13 @@ importScripts('https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js')
 
 // eslint-disable-next-line no-undef
 firebase.initializeApp({
-    apiKey: "AIzaSyCnwuwsmIEnrb_HaqeI8adOIjt4PZ5kKnw",
-    authDomain: "marklogistics-84539.firebaseapp.com",
-    projectId: "marklogistics-84539",
-    storageBucket: "marklogistics-84539.appspot.com",
-    messagingSenderId: "62817675406",
-    appId: "1:62817675406:web:2c03752d25258cdbb4c1df",
-    measurementId: "G-2BSCHEYWY5",
+    apiKey: "",// your-credentials
+    authDomain: "",// your-credentials
+    projectId: "",// your-credentials
+    storageBucket: "",// your-credentials
+    messagingSenderId: "", // your-credentials
+    appId: "",// your-credentials
+    measurementId: "",// your-credentials
 });
 
 
