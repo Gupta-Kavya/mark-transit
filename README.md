@@ -11,6 +11,18 @@ Welcome to Mark Transit! Our latest innovation designed to enhance the daily com
 
 Mark Transit is dedicated to making college/school commutes safer and more efficient for everyone involved.
 
+## Screenshots
+
+### Student Interface
+
+![Student's Interface 1](https://i.postimg.cc/02sGXpP0/Students-s-Interface-1.png)
+
+![Student's Interface 2](https://i.postimg.cc/NjTcGqWc/Students-s-Interface-2.png)
+
+![Student's Interface 3](https://i.postimg.cc/nLzNsyWr/Students-s-Interface-3.png)
+
+![Student's Interface 4](https://i.postimg.cc/Xvm1rpF1/Students-s-Interface.png)
+
 ## Getting Started
 
 Follow these instructions to clone the repository and run Mark Transit locally.
